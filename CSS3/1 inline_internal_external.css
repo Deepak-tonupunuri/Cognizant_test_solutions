@@ -1,0 +1,30 @@
+/* Inline styles are used like this: <h1 style="color:red;">Hello</h1> */
+/* Internal styles go inside <style> tags in the HTML head */
+/* External styles like this file apply globally */
+/*Inline
+Placed Individual lines in the html body
+<h1 style="color:red;">Hello</h1>
+<h1 style="color:blue;">Hii</h1>
+<p style="color:black;">Hello Hii</p>*/
+
+
+/*Internal
+The <style> tag placed in html head
+<style>
+body {
+background-color: black;
+padding: 6px;
+border-radius:5px;
+}
+</style> */
+
+/* External 
+It is a seperate css file that is linked with html head */
+
+.container{
+    height:100vh;
+    width: 85vw;
+    background-color: blueviolet;
+    background-size: cover;
+
+}
